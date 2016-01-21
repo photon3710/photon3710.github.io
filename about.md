@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I'm partner and data scientist at Singularity Inc.
+I'm quantum annealing lover.
 
-- {% include icon-linkedin.html username="Ashley Wang" userid="swang2015" %}
+- {% include icon-linkedin.html username="Yongchao Tang" userid="iqcguru" %}
