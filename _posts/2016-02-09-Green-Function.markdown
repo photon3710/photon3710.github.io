@@ -3,6 +3,7 @@ layout: post
 title:  "Fundamental Green Function to Poisson's function!"
 date:   2016-01-19 17:00:46 -0500
 categories: jekyll update
+math: True
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
