@@ -1,7 +1,7 @@
 {
 "demos":[
 {
-	"name": "Teach me to fly",
+	"name": "My Blog",
 	"image": "wingsuit",
 	"description" : "<p>This demo is a small flying game made in less than two days with Three.js.</p>",
         "url" : "/canvas"
