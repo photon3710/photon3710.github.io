@@ -1,0 +1,224 @@
+{
+"demos":[
+{
+	"name": "Teach me to fly",
+	"image": "wingsuit",
+	"description" : "<p>This demo is a small flying game made in less than two days with Three.js.</p>",
+        "url" : "/wingsuit"
+},
+
+{
+	"name": "Paris bubbles",
+	"image": "bubbles",
+	"description" : "<p>Here is an interactive way to display multimedia contents. Each bubble represents a monument or a famous place in Paris. It grows up when you click on it and you can see all kind of multimedia contents : text, videos, images or maps from Google Maps.</p><p>This demo has a very nice render with a touch screen. It allows a smooth user experience, less chopped than with standards hyperlinks.</p>",
+	"url": "/bubbles"
+},
+
+{
+	"name": "Spacegoo beach",
+	"image": "beach",
+	"description" : "<p>This demo simulates the sea surface, using Descartes reflexion and refraction laws.</p><p>You can save the obtained sea parameter by clicking on the SAVE button. You will then obtain a URL containing all the parameters.</p>",
+	"url": "/beach"
+},
+
+{
+	"name": "Cards",
+	"image": "poker",
+	"description" : "<p>SPACEGOO Cards is a demonstration of an animated character in a card game context.</p>",
+	"url": "/cards2"
+},
+
+{
+	"name": "Cadillac ranch",
+	"image": "cadillac",
+	"description" : "<p>Cadillac Ranch is a collaborative work of art located in Amarillo, Texas, on the old Route 66. It was created in 1974 by Chip Lord, Hudson Marquez and Doug Michels - all three members of the architects Ant Farm group. It consists of 10 Cadillacs in a line, half buried in the ground. Everyone can paint at will, hence the name 'collaborative work of art'.</p><p>This demonstration is a virtual version of Cadillac Ranch. The changes you make are saved.</p>",
+	"url": "/cadillac"
+},
+
+{
+	"name": "Penrose tiles",
+	"image": "penrose",
+	"description" : "<p>This is an online application to build, draw and export Penroses tiles. These are non-periodic tiles of plane, based on 2 simple triangles and the gold number.</p>",
+	"url": "/penrose",
+	"hide": true
+},
+
+{
+	"name": "Tiananmen 1989",
+	"image": "tiananmen",
+	"description" : "<p>This demonstration was inspired by the events of Tiananmen Square in 1989. You can paint the tanks, the ground, the monument or stick pictures on it. Technically it is an improvement of our previous demonstration \"Cadillac Ranch\". Modifications can be saved in the server.</p>",
+	"url": "/tiananmen"
+},
+
+{
+	"name": "Solar system",
+	"image": "solar",
+	"description" : "<p>This demonstration simulates a solar system which consists of a star and several planets. The planets merge together, attracted by gravity, until a stable system is obtained.</p><p>You can change the planets number by using the up and down arrow keys.</p>",
+	"url": "/solar_system"
+},
+
+{
+	"name": "Slot machine",
+	"image": "slotmachine",
+	"description" : "<p>This game is a slot machine. Click on the spin button to gage. Click on the painting to learn things and on the beer can to get surprises !</p>",
+	"url": "/slotMachine"
+},
+
+{
+	"name": "3D Newspaper",
+	"image": "tempslibre",
+	"description" : "<p>Temps-Libre is a monthly French newspaper laid out in 3D by SPACEGOO. In this demonstration, various 3D objects were added to increase the interactivity of some advertisements.</p>",
+	"url": "/tempsLibre"
+},
+
+{
+	"name": "Maze",
+	"image": "maze",
+	"description" : "<p>The goal is to solve the maze.</p><p>There are seven levels. The game is saved automatically. Use the mouse or arrow keys to navigate, and the space bar or right click to jump.</p><p>On the JUMP squares you can jump much higher. Avoid the turning cubes that flip the maze and reverse the controls.</p>",
+	"url": "/maze"
+},
+
+{
+	"name": "Survivor copter",
+	"image": "helico",
+	"description" : "<p>Survivor Copter is WebGL game. The goal is to get out of the cave of old video games with a helicopter.</p><p>There are 5 levels. The helicopter is controlled using the arrow keys.</p>",
+	"url": "/helico"
+},
+
+{
+	"name": "Marching cubes sandbox",
+	"image": "marchingCubes",
+	"description" : "<p>This is an interactive webgl demo allowing user to generate and visualize meshes. It's based on marching cubes algorithm.</p>",
+	"url": "/marchingCubes",
+	"hide": true
+},
+
+{
+	"name": "Mosquitoes killer",
+	"image": "mosquitoes",
+	"description" : "<p>SPACEGOO Mosquito is a game programmed in WebGL. The goal is to control a mosquito population in a confined space, using a helicopter.</p><p>The helicopter is controlled with the arrow keys on the keyboard. It has a lot of inertia, which adds difficulty to the game.</p>",
+	"url": "/mosquitoes",
+	"hide": true
+},
+
+{
+	"name": "Ambient occlusion",
+	"image": "ao",
+	"description" : "<p>Ambient occlusion is an effect that adds realism to a 3D scene by improving the shaded areas inaccessible to light. This is an approximation of global illumination, where one calculates only one factor called the \"occlusion\" by the vertex of the scene. This is what one would see if the object was placed into a uniformly bright room, a bit like under an overcast sky. </p>",
+	"url": "/ambient_occlusion",
+	"hide": true
+},
+
+{
+	"name": "Ondulating news",
+	"image": "floatingnews",
+	"description" : "<p></p>",
+	"url": "/floatingNews",
+	"hide": true,
+        "disable" : true
+},
+
+{
+	"name": "HTML5 Steganography",
+	"image": "steganography",
+	"description" : "<p></p>",
+	"url": "/steganography",
+	"hide": true
+},
+
+{
+	"name": "House configurator",
+	"image": "lignum",
+	"description" : "<p>LIGNUM is an architectural web application. It is a house configurator. From a predefined house model, you can make your own house and visit it in 3D.</p><p>Technically, webgl is used for 3D views. The 2D customization uses only the CANVAS 2D element of HTML5.</p>",
+	"url": "/lignum/index.php?constructor=Demo1"
+},
+
+{
+	"name": "Movement tracker",
+	"image": "trackgl",
+	"description" : "<p>This is a movement tracker. You can rotate a 3D cube with your hand or your body. It requires a webcam, and Chrome latest.</p>",
+	"url": "/trackGL",
+	"hide": true
+},
+
+{
+	"name": "Chess cam",
+	"image": "chess",
+	"description" : "<p>3D Chess game with webcam view. It requires Chrome 22 with Peerconnection and Mediastream enabled in chrome://flags . It may not work with some types of firewalls.</p>",
+	"url": "/chess"
+},
+
+{
+	"name": "Little funny game :)",
+	"image": "rege",
+	"description" : "<p></p>",
+	"url": "/rege",
+	"hide": true
+},
+
+{
+	"name": "Flight simulator",
+	"image": "flight",
+	"description" : "<p></p>",
+	"url": "/cours/4_TD3/4_TD3_corrige",
+	"hide": true
+},
+
+{
+	"name": "Old google maps",
+	"image": "oldmap",
+	"description" : "<p>View Google Maps with a parchment effect. This small demo is the result of a 2 hours tutorial classes with a cut&amp;past tutorial.</p><p>WebGL can also be used to produce some cool 2D effects !</p>",
+	"url": "/cours/5_TD4/5_TD4_corrige",
+	"hide": false
+},
+
+{
+	"name": "Multiplayer minesweeper",
+	"image": "demineur",
+	"description" : "<p></p>",
+	"url": "/demineur",
+	"hide": true,
+        "disable" : true
+},
+
+{
+	"name": "Website destroyer",
+	"image": "bricks",
+	"description" : "<p></p>",
+	"url": "/bricks",
+	"hide": true
+},
+
+{
+	"name": "Fabric simulation",
+	"image": "clothes",
+	"description" : "<p></p>",
+	"url": "/demos/clothes",
+	"hide": true
+},
+
+{
+	"name": "3D Wordpress template",
+	"image": "website3d",
+	"description" : "<p></p>",
+	"url": "/website3d",
+	"hide": true
+},
+
+{
+	"name": "Zippo customizer",
+	"image": "zippo",
+	"description" : "<p></p>",
+	"url": "/demos/zippo",
+	"hide": true
+},
+
+{
+	"name": "Webgl Academy",
+	"image": "webglacademy",
+	"description" : "<p>Webgl Academy is a solid take on blending the step-by-step interactive tutorial approach of Code Academy with the excitement of Webgl.</p><p>Understand, test and edit the code, download your application or view it in fullscreen mode.</p>",
+	"url": "http://www.webglacademy.com",
+	"hide": false
+}
+]
+}

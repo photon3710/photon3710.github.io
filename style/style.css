@@ -1,0 +1,244 @@
+html {
+    height: 100%;
+}
+body {
+    user-select: none; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none;
+    font-family: 'Average Sans', sans-serif;
+    overflow: hidden;
+    height: 100%;
+    /* background-color: #002; */
+    background-color: #001D3b;
+}
+
+a {outline: none; text-decoration: none; user-select: none; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none; }
+
+.webgl_canvas {position: fixed; top: 0px; left: 0px; cursor: move}
+
+label {float: left; width: 220px}
+.small_input {width: 50px}
+
+.content {
+    display: block;
+    position: absolute;
+    z-index: 5;
+    left: 35%;
+    bottom: 10%;
+    height: 500px;
+    width: 540px;
+    margin-bottom: -50px;
+    margin-left: -270px;
+}
+
+.contentInside {
+    cursor:auto;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #eee;
+    /*background-image: url("../images/bgContent.png");*/
+    margin-left: auto; margin-right: auto;
+    display: block;
+    margin-top: 0px;
+    width: 400px;
+    height: 450px;
+}
+
+.header {
+    background-image: url("../images/content3d.png");    
+    display: block;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    height: 30px;
+}
+
+.halo {
+    width: 540px;
+    height: 100px;
+    margin-top: -50px;
+    display: block;
+    background-image: url("../images/halo.png")
+}
+
+.menu {
+    width: 80px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: blue;
+    float: left;
+    display: block;
+}
+
+.menu:hover {
+    background-color: #55f
+}
+
+.content p {
+    filter: url(bw.svg#grayscale);
+    font-size: 10pt;
+    text-align: justify; margin-left: 20px; margin-right: 20px;
+}
+
+.content h1 {
+    font-size: 16pt; color: darkorange; margin-top: 10px; margin-bottom: -5px; margin-left: 10px;
+}
+
+.fenetre {
+    background-color: rgba(255,255,255,0);
+    border: 4px solid darkorange;
+    display: none;
+    z-index: 10;
+    position: absolute;
+    top: 0px; left: 0px; width: 400px;
+    height: 450px;   
+}
+
+.close {
+    color: darkorange;
+    border-left: 2px solid darkorange;
+    border-bottom: 2px solid darkorange;
+    text-decoration: none;
+    float: right;
+    margin: 0px;
+    padding: 5px;
+}
+
+.close:hover {
+    color: orange;
+}
+
+.fenetreContent {
+    margin: 10px;
+}
+
+.fenetreContent h1{
+    color: blue;
+}
+
+.fenetreContent h2{
+    color: blue;
+    font-size: 14pt;
+}
+
+.fenetreContent p {
+    font-size: 10pt;
+    text-align: justify; margin-left: 20px; margin-right: 20px;
+}
+.fenetreContent label {
+    float: left; width: 150px;
+}
+.fenetreContent ul {
+    font-size: 10pt;
+}
+
+.fenetreContent .colonne {
+    margin-left: 8px;
+    float: left; display: block;
+    width: 250px;
+    height: 460px;
+    border-right: 1px solid orange;
+}
+
+.demosCountainer {
+    width: 780px;
+    height: 470px;
+    background-color: white;
+    /*overflow-x: visible;*/
+    overflow-x: hidden;
+    overflow-y: hidden;    
+}
+
+.demos {
+    user-select: none;
+}
+
+.demo {
+    user-select: none;
+    color: black;
+    float: left;
+    display: block;
+    height: 140px;
+    width: 146px;
+    background-color: orange;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.demos img {
+    width: 140px;
+    height: 80px;
+    border-radius: 3px;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+
+.demoTitle {
+    user-select: none; -webkit-user-select: none; -moz-user-select: none; -khtml-user-select: none;
+    width: 140px;
+    color: white;
+    margin-left: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12pt;
+}
+
+.demoDescription {
+    opacity: 0;
+    display: none; background-color: white;
+    width: 302px; height: 290px; border-radius: 5px;
+    position: absolute;
+    z-index: 20;
+}
+
+.demoDescriptionInside {
+    margin: -5px 10px 0px 10px;
+}
+
+.demoDescriptionInside p {
+    text-align: justify
+}
+
+.demoLabel { /* 3D label */
+    font-size: 16pt;
+    text-shadow: 0px 0px 5px black;
+    border-radius: 3px;
+    display: none;
+    padding: 0px;
+    color: white;
+    width: 150px;
+    margin-left: -75px;
+    position: absolute;
+    text-align: center;
+}
+
+
+.notCompatibleWrapper {
+    background-color: rgba(0,0,0,0.6);
+    position: absolute; top:0px; left: 0px;
+    display: block;
+    z-index: 30;
+    width: 100%;
+    height: 100%;
+    color: black;
+}
+
+.notCompatible {
+    text-align: justify;
+    width: 400px;
+    height: 270px;
+    margin-top: -135px;
+    margin-left: -200px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    display: block;
+    padding: 10px;
+    background-color: white;
+    border: 3px solid orange;
+}
+
+
+}

@@ -1,23 +1,39 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>.: SPACEGOO :.</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-ico" />
+        <link rel="shortcut icon" href="images/favicon.ico" />
 
-<div class="home">
+        <script type="text/javascript" src='/analytics.js' async></script>
+        <script type="text/javascript" src="libs/jquery-ui-1.9.0/js/jquery-1.8.2.js"></script>
+        <script type="text/javascript" src="libs/jquery-ui-1.9.0/js/jquery-ui-1.9.0.custom.min.js"></script>
 
-  <h1 class="page-heading">Posts</h1>
+        <script type="text/javascript" src="packer/script.js"></script>
+	<script src="http://cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- <script type="text/javascript" src="script.php"></script> //-->
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta property="og:title" content="SPACEGOO" />
+        <meta property="og:description" content="Web development services for 3D applications using Webgl and other HTML5 technologies." />
+        <meta property="og:image" content="images/spacegoo.jpg" />
+        <meta name="title" content="SPACEGOO" />
+        <meta name="description" content="Web development services for 3D applications using Webgl and other HTML5 technologies." />
+        <link rel="image_src" href="images/spacegoo.jpg" />
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style/style.css"/>
+        <link rel="stylesheet" type="text/css" href="libs/jquery-ui-1.9.0/css/ui-darkness/jquery-ui-1.9.0.custom.min.css"/>
+    </head>
+    <body onload="main()">
+	<!-- <div style='color: white; background-color: black; font-size: 14pt; position: fixed; bottom: 0px; left: 50%;'>
+	<a style='color: white' href='http://www.webglacademy.com/jean-marie-bourry.html' title='Liens vers la decision de justice pour Jean-Marie Bourry'>Justice pour Jean-Marie Bourry</a> | 
+	<a style='color: white' href='http://www.webglacademy.com/nobsrevactu-jean-marie-bourry.html' title='Jean-Marie Bourry sur NObsRevActu'>Jean-Marie Bourry : NObsRevActu</a></div> -->
 
-</div>
+        <canvas id="mon_canvas" class="webgl_canvas" width="800" height="600"></canvas>
+
+        <div id="facebookHolder"></div>
+
+    </body>
+</html>
