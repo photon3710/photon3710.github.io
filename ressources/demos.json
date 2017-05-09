@@ -5,6 +5,14 @@
 	"image": "wingsuit",
 	"description" : "<p>This demo is a small flying game made in less than two days with Three.js.</p>",
         "url" : "/canvas"
+},
+	
+{
+	"name": "My web",
+	"image": "aa",
+	"description" : "<p>This demo is a small flying game made in less than two days with Three.js.</p>",
+        "url" : "/canvas"
 }
+	
 ]
 }
