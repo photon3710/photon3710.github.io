@@ -7,10 +7,16 @@
         "url" : "/canvas"
 },	
 {
-	"name": "My web",
+	"name": "Favourite Video",
 	"image": "panada",
-	"description" : "<p>This demo is a small flying game made in less than two days with Three.js.</p>",
-        "url" : "https://www.youtube.com/watch?v=3Z71ylFYb2A"
-}
+	"description" : "<p>To store my favourite videos.</p>",
+        "url" : "http://www.dailymotion.com/video/x2cjm36"
+},
+{
+	"name": "Machine Learing",
+	"image": "intel",
+	"description" : "<p>Deifferent graphs for ML.</p>",
+        "url" : "http://www.dailymotion.com/video/x2cjm36"
+}	
 ]
 }
