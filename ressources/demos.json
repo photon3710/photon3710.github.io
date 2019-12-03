@@ -10,13 +10,13 @@
 	"name": "Favourite Video",
 	"image": "panada",
 	"description" : "<p>To store my favourite videos.</p>",
-        "url" : "http://www.dailymotion.com/video/x2cjm36"
+        "url" : "https://www.youtube.com/playlist?list=PLAwxTw4SYaPnIRwl6rad_mYwEk4Gmj7Mx"
 },
 {
 	"name": "Machine Learing",
 	"image": "intel",
 	"description" : "<p>Deifferent graphs for ML.</p>",
-        "url" : "http://www.dailymotion.com/video/x2cjm36"
+        "url" : "https://www.analyticsvidhya.com/blog/2018/10/read-books-for-beginners-machine-learning-artificial-intelligence/"
 }	
 ]
 }
