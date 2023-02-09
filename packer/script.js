@@ -472,10 +472,10 @@ var Contexte = (function() {
             }
             var j = Shaders.instance({});
             var f = Vue.instance({
-                camera: [0, 0, -5],
-                theta: 0.38,
-                phi: 0.21,
-                angle: 50,
+                camera: [0, 0, -12],
+                theta: 0,
+                phi: 0,
+                angle: 0,
                 zMin: 1,
                 zMax: 20
             });
@@ -511,7 +511,7 @@ var Contexte = (function() {
             lib_ajax.get("ressources/demos.json", function(e) {
                 SQ = SphereQuads.instance({
                     content: JSON.parse(e),
-                    a: 5,
+                    a: 4,
                     b: 3
                 });
                 d.add_objet(SQ);
@@ -1219,7 +1219,7 @@ var Navigation = (function() {
                 if (typeof(z) === "number") {
                     g *= z
                 }
-                SQ.turnMouse(g, e);
+                SQ.turnMouse(-g, e); //rotate the sphere direction with mouse
                 j = A.pageX;
                 p = A.pageY
             };
